@@ -1,6 +1,6 @@
 @echo off
 @if not "%~x1"==".pdf" (
-    echo 這不是PDF檔...
+    echo 這不是PDF檔.../It's not a PDF file...
 ) else (
     node "%~dp0/main" %1 "%~n1.csv"
 )
