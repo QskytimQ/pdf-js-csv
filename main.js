@@ -1,1 +1,1 @@
-var pdf2csv = require('pdf2csv');
+var pdf2csv = require('./lib/main');
