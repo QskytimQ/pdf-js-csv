@@ -17,7 +17,7 @@ npm install 或 yarn install
 Install
 =
 ```
-# You need to have Git(or you want to download with zip) and NodeJS
+# You need to have Git(or you want to download as zip) and NodeJS
 git clone https://github.com/WeiZhiHuang/pdf-js-csv.git
 npm install or yarn install
 ```
