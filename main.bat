@@ -1,7 +1,9 @@
 @echo off
-@if not "%~x1"==".pdf" (
-    echo ≥o§£¨OPDF¿….../It's not a PDF file...
-) else (
-    node "%~dp0/main" %1 "%~n1.csv"
+for %%i in (%*) do (
+    @if not "%%~xi"==".pdf" (
+        echo %%~ni%%~xi is not a PDF file...
+    ) else (
+        node "%~dp0/main" %%i "%%~ni.csv"
+    )
 )
-start "" "%~n1.csv"
+pause
