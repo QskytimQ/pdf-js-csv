@@ -1,4 +1,4 @@
-安裝
+﻿安裝
 =
 ```
 # 你需要有Git(或者你想要下載為zip)和NodeJS
@@ -11,7 +11,7 @@ npm install 或 yarn install
 ```
 你只要拖曳PDF檔案至main.bat(Windows)，程式就會自動轉換PDF成CSV。
 如果你想要轉換成其他編碼，只需要修改lib/pdf2csv.js裡面的big5部分成其他編碼即可。
-如果你的作業系統不是Windows，你只需要使用"node main [待轉換的PDF.pdf] [轉換後的CSV後的.csv]"即可。
+如果你的作業系統不是Windows，你只需要使用"node main [待轉換的PDF.pdf] [轉換後的CSV.csv]"即可。
 ```
 
 Install
